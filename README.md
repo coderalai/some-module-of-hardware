@@ -1,2 +1,2 @@
 # some-module-of-hardware
-collect some IP module 
+Collect some IP module for accumulation.
