@@ -8,8 +8,26 @@
 `define ZeroReg         5'h0
 `define WriteEnable     1'b1
 `define WriteDisable    1'b0
-`define JumpEnable      1'b0
-`define JumpDisable     1'b1
+`define ReadEnable      1'b1
+`define ReadDisable     1'b0
+`define True            1'b1
+`define False           1'b0
+`define JumpEnable      1'b1
+`define JumpDisable     1'b0
+`define DivResultNotReady   1'b0 
+`define DivResultReady      1'b1
+`define DivStart        1'b1
+`define DivStop         1'b0
+`define HoldEnable      1'b1
+`define HoldDisable     1'b0
+`define Stop            1'b1
+`define NoStop          1'b0
+`define RIB_ACK         1'b1
+`define RIB_NACK        1'b0
+`define RIB_REQ         1'b1
+`define RIB_NREQ        1'b0
+`define INT_ASSERT      1'b1
+`define INT_DEASSERT    1'b0
 
 `define INT_BUS         7:0
 
@@ -74,7 +92,7 @@
 `define INST_LUI        7'b0110111
 `define INST_AUIPC      7'b0010111
 `define INST_NOP        32'h00000001
-`define INST_NOP_OP     7'b00000001
+`define INST_NOP_OP     7'b0000001
 `define INST_MRET       32'h30200073
 `define INST_RET        32'h00008067
 
