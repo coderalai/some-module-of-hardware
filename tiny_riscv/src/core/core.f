@@ -6,4 +6,6 @@ $MY_TINYRISCV_HOME/src/core/regs.v
 $MY_TINYRISCV_HOME/src/core/ex.v
 $MY_TINYRISCV_HOME/src/core/ctrl.v
 $MY_TINYRISCV_HOME/src/core/csr_reg.v
+$MY_TINYRISCV_HOME/src/core/clint.v
+$MY_TINYRISCV_HOME/src/core/div.v
 $MY_TINYRISCV_HOME/src/core/tinyriscv.v

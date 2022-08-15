@@ -30,7 +30,10 @@
 `define INT_DEASSERT    1'b0
 
 `define INT_BUS         7:0
-
+`define INT_NONE        8'h0
+`define INT_RET         8'hff
+`define INT_TIMER0      8'b00000001
+`define INT_TIMER0_ENTRY_ADDR      32'h4
 
 `define Hold_Flag_Bus   2:0
 `define Hold_None       3'b000
