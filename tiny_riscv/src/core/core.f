@@ -8,4 +8,7 @@ $MY_TINYRISCV_HOME/src/core/ctrl.v
 $MY_TINYRISCV_HOME/src/core/csr_reg.v
 $MY_TINYRISCV_HOME/src/core/clint.v
 $MY_TINYRISCV_HOME/src/core/div.v
+$MY_TINYRISCV_HOME/src/core/if_id.v
+$MY_TINYRISCV_HOME/src/core/id_ex.v
+$MY_TINYRISCV_HOME/src/core/rib.v
 $MY_TINYRISCV_HOME/src/core/tinyriscv.v

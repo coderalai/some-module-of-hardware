@@ -1,2 +1,3 @@
 -f $MY_TINYRISCV_HOME/src/core/core.f
-//$MY_TINYRISCV_HOME/tb/tb.svh
+-f $MY_TINYRISCV_HOME/src/utils/utils.f
+$MY_TINYRISCV_HOME/tb/tb.svh
